@@ -1,0 +1,6 @@
+D:\Nik\Laby\Isp_3\LR2\WindowsService1\bin\Debug\WindowsService1.exe.config
+D:\Nik\Laby\Isp_3\LR2\WindowsService1\bin\Debug\WindowsService1.exe
+D:\Nik\Laby\Isp_3\LR2\WindowsService1\bin\Debug\WindowsService1.pdb
+D:\Nik\Laby\Isp_3\LR2\WindowsService1\obj\Debug\WindowsService1.csprojAssemblyReference.cache
+D:\Nik\Laby\Isp_3\LR2\WindowsService1\obj\Debug\WindowsService1.exe
+D:\Nik\Laby\Isp_3\LR2\WindowsService1\obj\Debug\WindowsService1.pdb
