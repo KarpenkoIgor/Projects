@@ -12,17 +12,23 @@ namespace WindowsService1
     {
         public static void Compress(string sourceFile, string compressedFile)
         {
-
             try
             {
-
+                string encrFileName = Crypt.EncryptedFilePath(sourceFile, "D:\\Target\\crypt");
                 using (FileStream sourceStream = new FileStream(sourceFile, FileMode.OpenOrCreate))
                 {
                     using (FileStream targetStream = File.Create(compressedFile))
                     {
-                        using (GZipStream compressionStream = new GZipStream(targetStream, CompressionMode.Compress))
+                        using (FileStream encryptStream = File.Create(encrFileName))
                         {
-                            sourceStream.CopyTo(compressionStream);
+                            Crypt.Encrypt(sourceStream, encryptStream);
+                            using (GZipStream compressionStream = new GZipStream(targetStream, CompressionMode.Compress))
+                            {
+                                using (FileStream finalStream = new FileStream(encrFileName, FileMode.OpenOrCreate))
+                                {
+                                    finalStream.CopyTo(compressionStream);
+                                }
+                            }
                         }
                     }
                 }
@@ -31,7 +37,7 @@ namespace WindowsService1
             {
                 using (StreamWriter writer = new StreamWriter("D:\\Target\\sourcelog.txt", true))
                 {
-                    writer.WriteLine("Data archiving error:{0}", ex.Message);
+                    writer.WriteLine("Ошибка архивации данных:{0}", ex.Message);
                     writer.Flush();
                 }
             }
@@ -39,16 +45,39 @@ namespace WindowsService1
 
         public static void Decompress(string compressedFile, string targetFile)
         {
-            using (FileStream sourceStream = new FileStream(compressedFile, FileMode.OpenOrCreate))
+            try
             {
-                using (FileStream targetStream = File.Create(targetFile))
+                string decrFileName = Crypt.DecryptedFilePath(compressedFile, "D:\\Target\\crypt");
+                using (FileStream sourceStream = new FileStream(compressedFile, FileMode.OpenOrCreate))
                 {
-                    using (GZipStream decompressionStream = new GZipStream(sourceStream, CompressionMode.Decompress))
+                    using (FileStream targetStream = File.Create(targetFile))
                     {
-                        decompressionStream.CopyTo(targetStream);
+                        using (FileStream decryptStream = File.Create(decrFileName))
+                        {
+                            using (GZipStream decompressionStream = new GZipStream(sourceStream, CompressionMode.Decompress))
+                            {
+                                decompressionStream.CopyTo(decryptStream);
+                            }
+ 
+                        }
+                        using (FileStream finaleStream = new FileStream(decrFileName, FileMode.OpenOrCreate))
+                        {
+                            Crypt.Decrypt(finaleStream, targetStream);
+                        }
                     }
                 }
             }
+            catch (Exception ex)
+            {
+                using (StreamWriter writer = new StreamWriter("D:\\Target\\sourcelog.txt", true))
+                {
+                    writer.WriteLine("Ошибка деархивации данных:{0}", ex.Message);
+                    writer.Flush();
+                }
+            }
+
         }
     }
+
+   
 }
