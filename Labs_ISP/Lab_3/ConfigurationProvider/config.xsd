@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="config"
+    targetNamespace="http://tempuri.org/config.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/config.xsd"
+    xmlns:mstns="http://tempuri.org/config.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+  <xs:element name="Settings">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="SourcePath" type="xs:string" />
+        <xs:element name="TargetPath" type="xs:string" />
+        <xs:element name="ArchiveSetting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NeedToArchive" type="xs:boolean" />
+              <xs:element name="NeedToEncrypt" type="xs:boolean" />
+              <xs:element name="CompressingLevel" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

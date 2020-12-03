@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<Settings>
+   <SourcePath>D:\Source</SourcePath>
+   <TargetPath>D:\Target</TargetPath>
+  <ArchiveSetting>
+    <NeedToArchive>true</NeedToArchive>
+    <NeedToEncrypt>true</NeedToEncrypt>
+    <CompressingLevel>0</CompressingLevel>
+  </ArchiveSetting>
+</Settings>
