@@ -1,0 +1,5 @@
+{
+  "SourcePath": "D:\\Source",
+  "TargetPath": "D:\\Target",
+  "ConnectionString": "data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=Formula1;Integrated Security=True"
+}

@@ -1,0 +1,7 @@
+D:\Nik\Laby\Isp_3\LR4\ConfigurationManager\obj\Debug\netcoreapp3.0\ConfigurationManager.AssemblyInfoInputs.cache
+D:\Nik\Laby\Isp_3\LR4\ConfigurationManager\obj\Debug\netcoreapp3.0\ConfigurationManager.AssemblyInfo.cs
+D:\Nik\Laby\Isp_3\LR4\ConfigurationManager\bin\Debug\netcoreapp3.0\ConfigurationManager.deps.json
+D:\Nik\Laby\Isp_3\LR4\ConfigurationManager\bin\Debug\netcoreapp3.0\ConfigurationManager.dll
+D:\Nik\Laby\Isp_3\LR4\ConfigurationManager\bin\Debug\netcoreapp3.0\ConfigurationManager.pdb
+D:\Nik\Laby\Isp_3\LR4\ConfigurationManager\obj\Debug\netcoreapp3.0\ConfigurationManager.dll
+D:\Nik\Laby\Isp_3\LR4\ConfigurationManager\obj\Debug\netcoreapp3.0\ConfigurationManager.pdb

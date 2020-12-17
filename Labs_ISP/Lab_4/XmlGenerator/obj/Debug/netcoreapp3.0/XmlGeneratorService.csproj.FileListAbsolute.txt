@@ -1,0 +1,13 @@
+D:\Nik\Laby\Isp_3\LR4\XmlGenerator\bin\Debug\netcoreapp3.0\XmlGeneratorService.deps.json
+D:\Nik\Laby\Isp_3\LR4\XmlGenerator\bin\Debug\netcoreapp3.0\XmlGeneratorService.dll
+D:\Nik\Laby\Isp_3\LR4\XmlGenerator\bin\Debug\netcoreapp3.0\XmlGeneratorService.pdb
+D:\Nik\Laby\Isp_3\LR4\XmlGenerator\bin\Debug\netcoreapp3.0\DataAccessLayer.dll
+D:\Nik\Laby\Isp_3\LR4\XmlGenerator\bin\Debug\netcoreapp3.0\Models.dll
+D:\Nik\Laby\Isp_3\LR4\XmlGenerator\bin\Debug\netcoreapp3.0\DataAccessLayer.pdb
+D:\Nik\Laby\Isp_3\LR4\XmlGenerator\bin\Debug\netcoreapp3.0\Models.pdb
+D:\Nik\Laby\Isp_3\LR4\XmlGenerator\obj\Debug\netcoreapp3.0\XmlGeneratorService.csprojAssemblyReference.cache
+D:\Nik\Laby\Isp_3\LR4\XmlGenerator\obj\Debug\netcoreapp3.0\XmlGeneratorService.AssemblyInfoInputs.cache
+D:\Nik\Laby\Isp_3\LR4\XmlGenerator\obj\Debug\netcoreapp3.0\XmlGeneratorService.AssemblyInfo.cs
+D:\Nik\Laby\Isp_3\LR4\XmlGenerator\obj\Debug\netcoreapp3.0\XmlGeneratorService.csproj.CopyComplete
+D:\Nik\Laby\Isp_3\LR4\XmlGenerator\obj\Debug\netcoreapp3.0\XmlGeneratorService.dll
+D:\Nik\Laby\Isp_3\LR4\XmlGenerator\obj\Debug\netcoreapp3.0\XmlGeneratorService.pdb

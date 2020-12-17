@@ -1,0 +1,7 @@
+D:\Nik\Laby\Isp_3\LR4\DataManager\bin\Debug\DataManager.exe.config
+D:\Nik\Laby\Isp_3\LR4\DataManager\bin\Debug\DataManager.exe
+D:\Nik\Laby\Isp_3\LR4\DataManager\bin\Debug\DataManager.pdb
+D:\Nik\Laby\Isp_3\LR4\DataManager\obj\Debug\DataManager.csprojAssemblyReference.cache
+D:\Nik\Laby\Isp_3\LR4\DataManager\obj\Debug\DataManager.exe
+D:\Nik\Laby\Isp_3\LR4\DataManager\obj\Debug\DataManager.pdb
+D:\Nik\Laby\Isp_3\LR4\DataManager\obj\Debug\DataManager.csproj.CopyComplete

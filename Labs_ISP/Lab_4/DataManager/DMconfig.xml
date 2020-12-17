@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DataManagerSettings>
+  <SourcePath>D:\Nik\Laby\Isp_3\LR4\DataManager\obj\Debug</SourcePath>
+  <TargetPath>D:\Source</TargetPath>
+    <ConnectionString>data Source=(localdb)\MSSQLLocalDB;Initial Catalog=AdventureWorks2016;Integrated Security=True</ConnectionString>
+</DataManagerSettings>
